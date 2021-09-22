@@ -1,9 +1,14 @@
 package br.com.lojinha.pojo;
 
-public class ItemAdicional {
+public class ItemIncluso {
 
     private String nome;
     private int quantidade;
+
+    public ItemIncluso(String nomeInicial, int quantidadeInicial){
+        this.nome = nomeInicial;
+        this.quantidade = quantidadeInicial;
+    }
 
     public String getNome(){
         return this.nome;

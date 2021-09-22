@@ -1,2 +1,5 @@
-package br.com.lojinha.interfaces;public interface Favorito {
+package br.com.lojinha.interfaces;
+
+public interface Favorito {
+    String getDadosFavoritos();
 }
